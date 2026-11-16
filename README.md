@@ -1,4 +1,4 @@
-# Fracture & Failure | Materials and Structures
+# Yang Chen | Materials and Structures Research
 
 A lightweight, responsive research-group website built with plain HTML and CSS and deployed using GitHub Pages.
 
@@ -10,9 +10,9 @@ A lightweight, responsive research-group website built with plain HTML and CSS a
 
 ## Personalise before sharing
 
-- Add the group lead's name, role, institution, and profile link in the team section of `index.html`.
-- Add team members, contact details, publications, and any institutional or social links.
+- Add verified biographical details and team members in the people section of `index.html`.
+- Add contact details, selected publications, and any institutional or social links.
 - Update the page title and description in the document head if the group name changes.
 - Adjust colors, typography, and responsive styles in `styles.css`.
 
-The site uses no build step or runtime dependencies. Google Fonts are optional; system fonts are used as fallbacks.
+The site uses no build step or runtime dependencies.
