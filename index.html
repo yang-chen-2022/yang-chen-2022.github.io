@@ -10,48 +10,95 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="container header-content">
-      <a class="site-name" href="#top">Yang Chen <span>Materials and Structures Research</span></a>
-      <nav aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#methods">Methods</a>
-        <a href="#team">Team</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <div class="header-brand">
+      <a class="site-name" href="#top">Yang Chen</a>
     </div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#overview">Home</a>
+      <a href="#research">Research</a>
+      <a href="#highlights">Highlights</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
+  <section class="banner" id="top" aria-labelledby="banner-title">
+    <div class="banner-content">
+      <h1 id="banner-title">Understanding Fracture and Failure</h1>
+      <p class="banner-subtitle">Advanced materials and structures research</p>
+    </div>
+  </section>
+
   <main id="main">
-    <section class="intro" id="top" aria-labelledby="page-title">
+    <section class="overview" id="overview">
       <div class="container">
-        <p class="eyebrow">Materials and structures research</p>
-        <h1 id="page-title">Understanding fracture and failure</h1>
-        <p class="lead">We study how materials and structures fracture and fail, combining modelling across scales with experimental characterisation.</p>
-        <div class="intro-links">
-          <a class="button" href="#research">Explore our research</a>
-          <a href="https://researchportal.bath.ac.uk/en/persons/yang-chen/">Yang Chen's Bath research profile</a>
+        <div class="overview-content">
+          <div class="overview-image">
+            <img src="https://via.placeholder.com/500x300?text=Research+Overview" alt="Research overview placeholder">
+          </div>
+          <div class="overview-text">
+            <h2>About Our Research</h2>
+            <p>Our research centres on fracture and failure in structural and functional materials. We aim to understand the mechanisms that lead to damage and how they influence the behaviour of materials and structures.</p>
+            <p>We use multiphysics and multiscale modelling alongside experimental characterisation, particularly X-ray computed tomography, to investigate material behaviour.</p>
+            <a href="#research" class="button">Learn More</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <div class="container content">
-      <section id="about" aria-labelledby="about-title">
-        <h2 id="about-title">About</h2>
-        <p>Our research centres on fracture and failure in structural and functional materials. We aim to understand the mechanisms that lead to damage and how they influence the behaviour of materials and structures.</p>
-        <p>We use multiphysics and multiscale modelling alongside experimental characterisation, particularly X-ray computed tomography, to investigate material behaviour.</p>
-      </section>
+    <section class="research-highlights" id="highlights">
+      <div class="container">
+        <h2>Research Highlights</h2>
+        <div class="slider">
+          <div class="slides-container">
+            <div class="slide">
+              <div class="slide-image">
+                <img src="https://via.placeholder.com/400x250?text=Composites" alt="Composites research">
+              </div>
+              <div class="slide-content">
+                <h3>Fibre-Reinforced Composites</h3>
+                <p>Fracture and failure in structural materials, including damage involving fibres, matrices and their interfaces.</p>
+                <a href="#research-detail-1" class="slide-link">View Details →</a>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-image">
+                <img src="https://via.placeholder.com/400x250?text=Batteries" alt="Batteries research">
+              </div>
+              <div class="slide-content">
+                <h3>Solid-State Batteries</h3>
+                <p>Damage and failure in functional materials, including the interaction of mechanical and electrochemical processes.</p>
+                <a href="#research-detail-2" class="slide-link">View Details →</a>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="slide-image">
+                <img src="https://via.placeholder.com/400x250?text=Semiconductors" alt="Semiconductors research">
+              </div>
+              <div class="slide-content">
+                <h3>Semiconductors</h3>
+                <p>Fracture, defects and reliability in semiconductor materials and structures.</p>
+                <a href="#research-detail-3" class="slide-link">View Details →</a>
+              </div>
+            </div>
+          </div>
+          <button class="slider-btn slider-prev" aria-label="Previous slide">❮</button>
+          <button class="slider-btn slider-next" aria-label="Next slide">❯</button>
+        </div>
+        <div class="slider-dots"></div>
+      </div>
+    </section>
 
+    <div class="container content">
       <section id="research" aria-labelledby="research-title">
-        <h2 id="research-title">Research areas</h2>
+        <h2 id="research-title">Research Areas</h2>
         <div class="grid">
           <article class="card">
-            <h3>Fibre-reinforced composites</h3>
+            <h3>Fibre-Reinforced Composites</h3>
             <p>Fracture and failure in structural materials, including damage involving fibres, matrices and their interfaces.</p>
           </article>
           <article class="card">
-            <h3>Solid-state batteries</h3>
+            <h3>Solid-State Batteries</h3>
             <p>Damage and failure in functional materials, including the interaction of mechanical and electrochemical processes.</p>
           </article>
           <article class="card">
@@ -61,47 +108,34 @@
         </div>
       </section>
 
-      <section id="methods" aria-labelledby="methods-title">
-        <h2 id="methods-title">Research methods</h2>
-        <div class="grid methods-grid">
-          <article class="card">
-            <h3>Multiphysics modelling</h3>
-            <p>Investigating interactions between physical processes that contribute to material behaviour and failure.</p>
+      <section id="news" aria-labelledby="news-title">
+        <h2 id="news-title">News & Updates</h2>
+        <div class="news-grid">
+          <article class="news-card">
+            <div class="news-date">Nov 2024</div>
+            <h3>New Research Project Launched</h3>
+            <p>Exciting new collaboration on composite materials degradation mechanisms and long-term performance prediction.</p>
+            <a href="#" class="read-more">Read More →</a>
           </article>
-          <article class="card">
-            <h3>Multiscale modelling</h3>
-            <p>Connecting mechanisms at the microstructural scale with the response of materials and structures.</p>
+          <article class="news-card">
+            <div class="news-date">Oct 2024</div>
+            <h3>Publication in Nature Materials</h3>
+            <p>Our latest findings on solid-state battery failure mechanisms have been published in a leading journal.</p>
+            <a href="#" class="read-more">Read More →</a>
           </article>
-          <article class="card">
-            <h3>Experimental characterisation</h3>
-            <p>Using experiments to examine materials and their response to loading and damage.</p>
-          </article>
-          <article class="card">
-            <h3>X-ray computed tomography</h3>
-            <p>Imaging internal material structures and damage in three dimensions.</p>
+          <article class="news-card">
+            <div class="news-date">Sep 2024</div>
+            <h3>Conference Presentation</h3>
+            <p>Presented cutting-edge research on X-ray tomography techniques at the International Materials Conference.</p>
+            <a href="#" class="read-more">Read More →</a>
           </article>
         </div>
-      </section>
-
-      <section id="team" aria-labelledby="team-title">
-        <h2 id="team-title">People</h2>
-        <div class="person">
-          <h3>Yang Chen</h3>
-          <p>Find biographical information and research activity on the University of Bath research portal.</p>
-          <a href="https://researchportal.bath.ac.uk/en/persons/yang-chen/">View Yang Chen's research profile</a>
-        </div>
-      </section>
-
-      <section id="publications" aria-labelledby="publications-title">
-        <h2 id="publications-title">Publications</h2>
-        <p>Explore research outputs and publications through the University of Bath research portal.</p>
-        <a href="https://researchportal.bath.ac.uk/en/persons/yang-chen/">View research outputs on the Bath profile</a>
       </section>
 
       <section id="contact" aria-labelledby="contact-title">
         <h2 id="contact-title">Contact</h2>
         <p>For research enquiries and potential collaborations, please visit Yang Chen's University of Bath research profile for contact information.</p>
-        <a href="https://researchportal.bath.ac.uk/en/persons/yang-chen/">Visit the Bath research profile</a>
+        <a href="https://researchportal.bath.ac.uk/en/persons/yang-chen/" class="button">Visit Research Profile</a>
       </section>
     </div>
   </main>
@@ -112,5 +146,7 @@
       <a href="#top">Back to top</a>
     </div>
   </footer>
+
+  <script src="slider.js"></script>
 </body>
 </html>
